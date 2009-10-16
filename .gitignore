@@ -1,0 +1,6 @@
+log/*.log
+tmp/**/*
+.svn
+.svn/**/*
+**/.svn/entries
+.tmp_*
