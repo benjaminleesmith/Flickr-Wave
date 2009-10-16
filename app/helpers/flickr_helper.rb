@@ -1,4 +1,8 @@
 module FlickrHelper
+  def photo_source(photo)
+    "http://www.flickr.com/photos/#{photo.owner}/#{photo.id}"
+  end
+  
   def photo_width(photo)
     if photo.width_s.to_i > photo.height_s.to_i
       100
