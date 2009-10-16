@@ -4,3 +4,4 @@ tmp/**/*
 .svn/**/*
 **/.svn/entries
 .tmp_*
+.project

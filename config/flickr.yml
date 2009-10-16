@@ -1,0 +1,11 @@
+development:
+  key: 5a89e4c1e00a04ca43c007ed060932ed
+  secret: 1b5b5762a7ebcc9e
+  
+test:
+  key: 5a89e4c1e00a04ca43c007ed060932ed
+  secret: 1b5b5762a7ebcc9e
+  
+production:
+  key: 5a89e4c1e00a04ca43c007ed060932ed
+  secret: 1b5b5762a7ebcc9e
