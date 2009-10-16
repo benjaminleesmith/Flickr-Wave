@@ -6,7 +6,7 @@
   <Content type="html">
     <![CDATA[     
 		  <% @photos.each do |photo| %>
-        <%= image_tag(photo.url_s) %>
+        <%= image_tag(photo.url_s, :width => photo_width(photo), :height => photo_height(photo)) %>
 		  <% end %>
     ]]>
   </Content>
