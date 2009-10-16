@@ -6,7 +6,7 @@
   <Content type="html">
     <![CDATA[     
 		  <% @photos.each do |photo| %>
-        <%= link_to(image_tag(photo.url_s, :width => photo_width(photo), :height => photo_height(photo)), photo_source(photo)) %>
+        <%= link_to(image_tag(photo.url_s, :width => photo_width(photo), :height => photo_height(photo)), photo_source(photo), :target => '_flickr') %>
 		  <% end %>
     ]]>
   </Content>
